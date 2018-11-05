@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (C) 2011-2017 Khaled Yakdan.
+// All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+#include "ComposedType.h"
+
+
+ComposedType::ComposedType(TypeEmun _type, std::string _typeString) : TypeBase(_type, _typeString)
+{
+}
+
+
+ComposedType::~ComposedType(void)
+{
+}

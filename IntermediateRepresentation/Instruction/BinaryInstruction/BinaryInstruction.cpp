@@ -1,0 +1,16 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (C) 2011-2017 Khaled Yakdan.
+// All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+#include "BinaryInstruction.h"
+
+
+BinaryInstruction::BinaryInstruction(InstructionType _type) : Instruction(_type)
+{
+}
+
+
+BinaryInstruction::~BinaryInstruction(void)
+{
+}
+
